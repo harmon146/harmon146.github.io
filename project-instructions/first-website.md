@@ -349,24 +349,24 @@ Inside of the Content `<div>` element, let's create a section where we can list 
      <details> 
      <summary> Click to see what your code should look like after completing these steps</summary>
 
-      > In the end, your code should look like this (only with more specific interests, of course)!
-      >
-      > ```HTML
-      >    <!-- Content Section-->
-      >    <div>
-      >        <h2></h2>
-      >        <p></p>
-      >        <!-- Interests section -->
-      >        <div>
-      >            <h3>Interests</h3>
-      >            <ul>
-      >                <li>Thing 1</li>
-      >                <li>Thing 2</li>
-      >                <li>Thing 3</li>
-      >            </ul>
-      >        </div>
-      >    </div>
-      > ```
+    > In the end, your code should look like this (only with more specific interests, of course)!
+    >
+    > ```HTML
+    >    <!-- Content Section-->
+    >    <div>
+    >        <h2></h2>
+    >        <p></p>
+    >        <!-- Interests section -->
+    >        <div>
+    >            <h3>Interests</h3>
+    >            <ul>
+    >                <li>Thing 1</li>
+    >                <li>Thing 2</li>
+    >                <li>Thing 3</li>
+    >            </ul>
+    >        </div>
+    >    </div>
+    > ```
 
   </details>
 
