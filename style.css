@@ -1,74 +1,78 @@
 body {
-    background: #343148FF;
-    color: #0;
-    padding: 10px;
-    font-family: arial;
+  background: #343148ff;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-family: arial;
 }
 #all-contents {
   max-width: 800px;
-    margin: auto;
+  margin: auto;
 }
 
 /* navigation menu */
 nav {
-    border-radius: 30px;
-    border-color: #F1F4FFFF;
-    border-style: solid;
-    background: #D7C49EFF;
-   margin: 0 auto;
-   margin-bottom: 20px;
-    display: flex;
-    padding: 10px;
+  border-radius: 30px;
+  border-color: #f1f4ffff;
+  border-style: solid;
+  background: #d7c49eff;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  padding: 10px;
 }
 h1 {
-    display: flex;
-    align-items: center;
-    color:#343148FF;
-    flex: 1;
-    margin: 0;
+  display: flex;
+  align-items: center;
+  color: #343148ff;
+  flex: 1;
+  margin: 0;
 }
 #nav-ul {
-    list-style-image: none;
+  list-style-image: none;
 }
 .nav-li {
-    display: inline-block;
-    padding: 0 10px;
+  display: inline-block;
+  padding: 0 10px;
 }
 a {
-    text-decoration: none;
-    color: #343148FF;
+  text-decoration: none;
+  color: #343148ff;
 }
 
 /* main container area beneath menu */
 main {
-    border-radius: 30px;
-    border-color: #F1F4FFFF;
-    border-style: solid;
-    background: #D7C49EFF ;
-    display: flex;
+  border-radius: 30px;
+  border-color: #f1f4ffff;
+  border-style: solid;
+  background: #d7c49eff;
+  display: flex;
 }
 .sidebar {
-    margin-right: 25px;
-    padding: 10px;
+  margin-right: 25px;
+  padding: 10px;
 }
 .sidebar-img {
-    border-radius: 30px;
-    border-style: solid;
-    border-color: #343148FF;
-    border: 10px;
-    width: 200px;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #343148ff;
+  border: 10px;
+  width: 200px;
+  height: 200px;
 }
 .content {
-    flex: 1;
-    padding: 15px;
+  flex: 1;
+  padding: 15px;
+  border-radius: 30px;
+  border-color: #f1f4ffff;
+  border-width: 25px;
 }
 
 /* portfolio styles */
 #interests {
- 
-    border: 4px #343148FF;
-    padding: 8px;
+  border: 15px #f1f4ffff;
+  padding: 8px;
 }
-h2, h3 {
-    margin: 0px;
+h2,
+h3 {
+  margin: 0px;
 }
