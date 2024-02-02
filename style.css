@@ -69,8 +69,13 @@ main {
 
 /* portfolio styles */
 #interests {
-  border: 15px #f1f4ffff;
+  border-style: solid;
+  border-color: #f1f4ffff;
+  border-width: 4px;
   padding: 8px;
+  background-color:#343148ff;
+  color: #f1f4ffff;
+ 
 }
 h2,
 h3 {
