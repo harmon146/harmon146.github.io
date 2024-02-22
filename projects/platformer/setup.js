@@ -16,8 +16,8 @@ const playerScale = 0.8; //makes the player just a bit smaller. Doesn't affect t
 
 // Player variables
 const player = {
-  x: 650,
-  y: 450,
+  x: 0,
+  y: 0,
   speedX: 0,
   speedY: 0,
   width: undefined,
@@ -74,11 +74,12 @@ let cannons = [];
 const cannonWidth = 118;
 const cannonHeight = 80;
 let projectiles = [];
-const defaultProjectileWidth = 24;
+const defaultProjectileWidth = 22;
 const defaultProjectileHeight = defaultProjectileWidth;
 const collectableWidth = 40;
 const collectableHeight = 40;
 let collectables = [];
+
 
 
 
