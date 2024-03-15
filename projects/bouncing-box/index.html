@@ -6,9 +6,10 @@
 	<script src="jquery.min.js"></script>
 	<style>
 		.box {
+			
 			width: 70px;
 			height: 70px;
-			background-color: teal;
+			background-color: deeppink;
 			font-size: 300%;
 			text-align: center;
 			user-select: none;
@@ -16,12 +17,13 @@
 			position: absolute;
 			top: 100px;
 			left: 0px;  /* <--- Change me! */
+			
 		}
 		.board{
 			height: 100vh;
 		}
 		body {
-			background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/NGC_4414_%28NASA-med%29.jpg/800px-NGC_4414_%28NASA-med%29.jpg);
+			background-image: url(https://pictures.porsche.com/rtt/iris?COSY-EU-100-1711cYLvsi60rFkXqXUnBEgAHYByY9AJ%25OggSPvuB1pkbgI7DMJphteDkrNqLHn4gpXnLZYovIS0rhO3RMFYqwhXjbWBbaoD2OFmI1BSCAW%25k4Zo9Zs1l20k8tRNpCY5fNGvvVb2Ho0rhHk7zhRc2KEQqA7fQSCgOJUPYrCMTBsN5wSt2dioCdOyQDcFGDPXYnfurne65yPewylLCvNzxM31GXoq1eHYr6FObyH5wRuT06rDx7e2HRer1UzQKPDrbsqYSFL5yPewCJoCvNzxpF8GXoq1CaOJUPYzgfTBsN5xlq2dioCyjlQDcFGv%25pYnfurX1J5yPew6feCvWdT7wkqdak6vcEGKQ9rzYpX%25nNU7yxdE);
 			background-color: #cccccc;
 			background-repeat: no-repeat;
 			background-size: 100% 100%;
@@ -56,6 +58,7 @@
 			// moves the Box to a new position on the screen along the X-Axis
 			function moveBoxTo(newPositionX, newPositionY) {
 				box.css("left", newPositionX);
+			
 				box.css('top', newPositionY);
 				
 				
